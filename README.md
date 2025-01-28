@@ -1,4 +1,4 @@
-#this is my first changes in readme file
+#This is my first changes in readme file
 # Prerequisites
 ###
 - JDK 11
