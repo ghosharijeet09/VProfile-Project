@@ -1,7 +1,8 @@
+#this is my first changes in readme file
 # Prerequisites
 ###
 - JDK 11
-- Maven 3 or later
+- Maven 3 or later5
 - MySQL 5.6 or later
 
 # Technologies 
