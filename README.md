@@ -176,8 +176,6 @@ Create tomcat service file
 # vi /etc/systemd/system/tomcat.service
 Update the file with below content
 ![image](https://github.com/user-attachments/assets/f61548ff-ba9d-4cb5-85b7-ccf3cb74fa22)
-
-Reload systemd files
 # systemctl daemon-reload
 Start & Enable service
 # systemctl start tomcat
