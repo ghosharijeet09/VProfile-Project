@@ -47,6 +47,18 @@ RabbitMQ (Broker/Queue SVC)
 Tomcat (Application SVC)
 Nginx (Web SVC)
 
+Login to the db vm
+
+Verify Hosts entry, if 
+
+Login to the db vm
+vagrant ssh db01
+
+Verify Hosts entry, if entries missing update the it with IP and hostnames
+
+
+Update OS with latest patches
+
 1. MYSQL Setup 
 
 Login to the db vm 
