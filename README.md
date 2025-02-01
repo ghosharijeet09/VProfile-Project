@@ -54,9 +54,9 @@ Login to the db vm
 Verify Hosts entry, if entries missing update the it with IP and hostnames
 -cat /etc/hosts
 Update OS with latest patches
-# dnf update -y
+-dnf update -y
 Set Repository
-# dnf install epel-release -y
+-dnf install epel-release -y
 Install Maria DB Package
 # dnf install git mariadb-server -y
 Starting & enabling mariadb-server
