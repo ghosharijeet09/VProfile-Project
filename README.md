@@ -50,9 +50,9 @@ Nginx (Web SVC)
 **1. MYSQL Setup**
 
 Login to the db vm
-#vagrant ssh db01
+-vagrant ssh db01
 Verify Hosts entry, if entries missing update the it with IP and hostnames
-# cat /etc/hosts
+-cat /etc/hosts
 Update OS with latest patches
 # dnf update -y
 Set Repository
