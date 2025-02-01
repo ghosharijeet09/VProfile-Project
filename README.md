@@ -48,6 +48,10 @@ Tomcat (Application SVC)
 Nginx (Web SVC)
 
 Login to the db vm
+->	vagrant ssh db01
+
+
+Login to the db vm
 
 Login to the db vm
 •	vagrant ssh db01
