@@ -49,6 +49,13 @@ Nginx (Web SVC)
 
 Login to the db vm
 
+Login to the db vm
+•	vagrant ssh db01
+
+Verify Hosts entry, if entries missing update the it with IP and hostnames
+•	cat /etc/hosts
+
+
 Verify Hosts entry, if 
 
 Login to the db vm
