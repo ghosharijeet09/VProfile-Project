@@ -47,6 +47,27 @@ RabbitMQ (Broker/Queue SVC)
 Tomcat (Application SVC)
 Nginx (Web SVC)
 
+1. MYSQL Setup 
+
+Login to the db vm 
+ vagrant ssh db01 
+
+Verify Hosts entry, if entries missing update the it with IP and hostnames 
+cat /etc/hosts 
+
+ Update OS with latest patches 
+dnf update-y 
+
+ Set Repository 
+dnf install epel-release-y 
+
+ Install Maria DB Package 
+dnf install git mariadb-server-y 
+
+ Starting & enabling mariadb-server 
+systemctl start mariadb 
+systemctl enable mariadb
+
 **1. MYSQL Setup**
 
 Login to the db vm
