@@ -23,7 +23,7 @@
 4. cd into vagrant/Manual_provisioning
 
 Bring up vm’s
-->vagrant up
+-> vagrant up
 
 NOTE: Bringing up all the vm’s may take a long time based on various factors.
 If vm setup stops in the middle run “vagrant up” command again.
