@@ -1,4 +1,4 @@
-**Title**: Setup a Multi Tier Web Application stack.
+**Title**: Setup a Multi Tier Web Application stack by using Vagrant.
 
 **Prerequisites**
 1. Oracle VM Virtualbox
