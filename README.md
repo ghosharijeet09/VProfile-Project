@@ -1,11 +1,11 @@
-**VPROFILE PROJECT SETUP**
+**Title**: Setup a Multi Tier Web Application stack.
 
 **Prerequisites**
 1. Oracle VM Virtualbox
 2. Vagrant
 3. Vagrant plugins
-   Execute below command in your computer to install hostmanager plugin
-   $ vagrant plugin install vagrant-hostmanager
+   Execute the command in your computer to install hostmanager plugin
+   ->vagrant plugin install vagrant-hostmanager
 4. Git bash or equivalent editor
 
 **Technologies**
@@ -23,12 +23,14 @@
 4. cd into vagrant/Manual_provisioning
 
 Bring up vm’s
-$ vagrant up
+->vagrant up
+
 NOTE: Bringing up all the vm’s may take a long time based on various factors.
 If vm setup stops in the middle run “vagrant up” command again.
+
 INFO: All the vm’s hostname and /etc/hosts file entries will be automatically updated.
 
-**Architecture of Project Services**
+**Architecture of the Services**
 ![image](https://github.com/user-attachments/assets/0c5057cd-8666-4512-bd1e-abf970bf5082)
 
 **PROVISIONING**
@@ -41,11 +43,11 @@ INFO: All the vm’s hostname and /etc/hosts file entries will be automatically 
 6. MySQL => SQL Database
 
 **Setup should be done in below mentioned order**
-MySQL (Database SVC)
-Memcache (DB Caching SVC)
-RabbitMQ (Broker/Queue SVC)
-Tomcat (Application SVC)
-Nginx (Web SVC)
+1. MySQL (Database SVC)
+2. Memcache (DB Caching SVC)
+3. RabbitMQ (Broker/Queue SVC)
+4. Tomcat (Application SVC)
+5. Nginx (Web SVC)
 
 Login to the db vm
 ->	vagrant ssh db01
